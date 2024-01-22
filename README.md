@@ -8,22 +8,22 @@ Key Elements of the Project:
 
 Dataset Content:
 
-User and expert reviews
-Genres of games
-Platforms (e.g., Xbox, PlayStation)
-Historical data on game sales
-ESRB ratings (evaluating game content and assigning age ratings)
+* User and expert reviews
+* Genres of games
+* Platforms (e.g., Xbox, PlayStation)
+* Historical data on game sales
+* ESRB ratings (evaluating game content and assigning age ratings)
+  
 Objective:
 
 Identify patterns influencing the success of video games.
+
 Application:
 
-Spot potential successful games.
-Plan advertising campaigns based on identified patterns.
-Time Frame:
-
-Data spans back to 2016, with a focus on planning a campaign for 2017.
+* Spot potential successful games.
+* Plan advertising campaigns based on identified patterns.
+  
 ESRB Ratings:
-
-Considered as a factor in the analysis to understand its impact on game success.
+* Considered as a factor in the analysis to understand its impact on game success.
+  
 The project aims to provide insights that can guide decision-making in the gaming industry, allowing for strategic planning and targeted advertising to maximize the success of video game releases.
