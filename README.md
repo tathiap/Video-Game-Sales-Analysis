@@ -16,7 +16,7 @@ Dataset Content:
   
 Objective:
 
-Identify patterns influencing the success of video games.
+* Identify patterns influencing the success of video games.
 
 Application:
 
