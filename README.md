@@ -4,8 +4,7 @@ These projects explore the key factors driving the commercial success of video g
 
 The analysis leverages user and critic reviews, sales trends, platform performance, and ESRB ratings to identify patterns behind blockbuster titles and market behavior. The primary time frame of interest is 2016, with the scenario set in December 2016 as the team plans campaigns for 2017.
 
---
-
+---
 ## Project 1: Strategic Insights for Gaming Success
 - Period Analyzed: 2016–2017
 - File: video_game_sales_analysis_2016_2017.ipynb
@@ -38,7 +37,7 @@ This project investigates global video game sales and trends to uncover the fact
 - Wii Sports was the highest selling game.
 - Hypothesis testing revealed significant differences between genres and pre-/post-2010 ratings.
 
---
+---
 
 ## Project 2: Video Game KPI Dashboard & Ratings Analysis
 - File: video_game_kpi_dashboard.py
@@ -65,7 +64,7 @@ This project builds an interactive KPI dashboard to visualize game sales perform
 - seaborn, matplotlib – Dashboard visualizations
 - os, warnings – Environment configuration
 
---
+---
 ##** How to Run the Streamlit Dashboard
 1. Clone the repository:
   git clone https://github.com/tathiap/Video-Game-Sales-Analysis.git
