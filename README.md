@@ -10,27 +10,27 @@ The analysis leverages user and critic reviews, sales trends, platform performan
 - Period Analyzed: 2016–2017
 - File: video_game_sales_analysis_2016_2017.ipynb
 
-### **Overview
+###**Overview
 This project investigates global video game sales and trends to uncover the factors that contribute to a game’s success. It focuses on analyzing user and critic reviews, sales by platform and genre, and regional performance to support inventory and marketing decisions.
 
-### **Key Objectives
+###**Key Objectives
 - Clean and preprocess raw game sales data
 - Analyze trends by platform, genre, and region
 - Explore the relationship between review scores and total sales
 - Test hypotheses on platform and genre ratings
 - Identify top-performing genres and ESRB rating patterns
 
-### **Tools & Libraries
+###**Tools & Libraries
 - pandas, numpy – Data manipulation
 - matplotlib, seaborn – Visualizations
 - scipy.stats – Hypothesis testing
 
-### **Hypotheses Tested
+###**Hypotheses Tested
 - Are user ratings significantly different between Xbox One and PC?
 - Do Action and Sports games have similar user ratings?
 - Have user ratings changed significantly before and after 2010?
 
-### **Key Findings
+###**Key Findings
 - PS4 and Xbox One were the most profitable platforms.
 - Action games were the most common, while Shooter and Platform genres had higher median sales.
 - North America led in overall sales.
@@ -43,10 +43,10 @@ This project investigates global video game sales and trends to uncover the fact
 ## Project 2: Video Game KPI Dashboard & Ratings Analysis
 - File: video_game_kpi_dashboard.py
 
-### **Overview
+###**Overview
 This project builds an interactive KPI dashboard to visualize game sales performance. It evaluates top performing platforms and genres, analyzes regional market share, and studies the impact of user and critic ratings on sales.
 
-### **KPI Highlights
+###**KPI Highlights
 - Top platform by average sales: Game Boy
 - Top genre by median sales: Platform
 - Region with highest total sales: North America
@@ -55,18 +55,18 @@ This project builds an interactive KPI dashboard to visualize game sales perform
 - Top-selling game: Wii Sports (82.54M units)
 
 ### **Dashboard Visualizations
-- Bar charts: Top platforms and genres
-- Pie chart: Regional sales distribution
-- KPI cards: Critic score impact and highly-rated games
-- Line & box plots: Sales trends and variation
+- **Bar charts**: Top platforms and genres
+- **Pie chart**: Regional sales distribution
+- **KPI cards**: Critic score impact and highly-rated games
+- **Line & box plots**: Sales trends and variation
 
-### **Tools Used
+###**Tools Used
 - pandas, numpy, scipy – Data analysis
 - seaborn, matplotlib – Dashboard visualizations
 - os, warnings – Environment configuration
 
 --
-## ** How to Run the Streamlit Dashboard
+##** How to Run the Streamlit Dashboard
 1. Clone the repository:
   git clone https://github.com/tathiap/Video-Game-Sales-Analysis.git
   cd Video-Game-Sales-Analysis
