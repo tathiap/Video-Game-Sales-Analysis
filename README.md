@@ -1,71 +1,85 @@
-# Identifying Success Patterns in Video Game Sales for Advertising Campaign Planning
+# Identifying Success Patterns in Video Game Sales
 
-## Overall Project Overview: Analyzing Success Drivers in the Video Game Industry: 
-These two projects collectively explore the key factors influencing the commercial performance of video games across platforms, genres, regions, and time periods. Using historical data, statistical testing, and KPI-driven dashboards, the goal was to uncover actionable insights that can inform product development, marketing strategies, and market expansion for a fictional video game retailer.
+These projects explore the key factors driving the commercial success of video games across platforms, genres, regions, and time periods. Using historical data, KPI dashboards, and statistical analysis, the objective is to extract actionable insights that can inform product development, marketing strategies, and advertising campaigns for a fictional video game retailer, Ice.
 
-In this project, the goal is to analyze data from the online store Ice, which sells video games globally. The dataset includes information on user and expert reviews, genres, platforms (e.g., Xbox or PlayStation), historical data on game sales, and the Entertainment Software Rating Board (ESRB) ratings. The task is to uncover patterns that can help determine the success of video games, aiding in the identification of potential blockbuster titles and the planning of effective advertising campaigns.
-
-The analysis covers data from 2016, with the scenario set in December 2016 as the team plans a campaign for 2017. The specific focus is on gaining valuable experience in working with data, and the time frame for forecasting sales is not strictly constrained to the year under consideration.
+The analysis leverages user and critic reviews, sales trends, platform performance, and ESRB ratings to identify patterns behind blockbuster titles and market behavior. The primary time frame of interest is 2016, with the scenario set in December 2016 as the team plans campaigns for 2017.
 
 ## Project 1: Strategic Insights for Gaming Success
 Period Analyzed: 2016–2017
-Filename Suggestion: video_game_sales_analysis_2016_2017.ipynb
+File: video_game_sales_analysis_2016_2017.ipynb
 
-### Overview
-This project analyzes global video game sales and market trends for the years 2016 and 2017. The goal was to uncover the factors contributing to a game's commercial success using historical sales data, user and critic reviews, platform performance, and genre trends. The analysis was conducted for the fictional online retailer "Ice", which seeks to optimize its inventory and marketing strategies based on consumer behavior.
- 
-### Key Objectives
-* Clean and prepare raw game sales data for analysis
-* Examine trends across platforms, genres, and regions
-* Investigate correlations between review scores and sales
-* Perform hypothesis testing on platform and genre ratings
-* Create user profiles by region and identify top-performing genres and ESRB ratings
+Overview
+This project investigates global video game sales and trends to uncover the factors that contribute to a game’s success. It focuses on analyzing user and critic reviews, sales by platform and genre, and regional performance to support inventory and marketing decisions.
 
-### Tools & Libraries
-* pandas, numpy for data manipulation
-* matplotlib, seaborn for visualization
-* scipy.stats for hypothesis testing
+Key Objectives
+Clean and preprocess raw game sales data.
 
-### Hypotheses Tested
-* Are average user ratings significantly different between Xbox One and PC?
-* Do Action and Sports games receive similar user ratings?
-* Have user ratings changed before and after 2010?
+Analyze trends by platform, genre, and region.
 
-### Findings Summary
-* PS4 and Xbox One were the most profitable platforms
-* Action games were most common, but Shooter and Platform genres had higher median sales
-* North America led in total game sales
-* Critic scores showed a moderate correlation with sales (0.41), user scores did not
-* Wii Sports was the highest-selling game
-* Hypothesis testing revealed a significant difference in genre ratings and release-era ratings
+Explore the relationship between review scores and total sales.
+
+Test hypotheses on platform and genre ratings.
+
+Identify top-performing genres and ESRB rating patterns.
+
+Tools & Libraries
+pandas, numpy – Data manipulation.
+
+matplotlib, seaborn – Visualizations.
+
+scipy.stats – Hypothesis testing.
+
+Hypotheses Tested
+Are user ratings significantly different between Xbox One and PC?
+
+Do Action and Sports games have similar user ratings?
+
+Have user ratings changed significantly before and after 2010?
+
+Key Findings
+PS4 and Xbox One were the most profitable platforms.
+
+Action games were the most common, while Shooter and Platform genres had higher median sales.
+
+North America led in overall sales.
+
+Critic scores showed a moderate correlation (0.41) with sales, while user scores had minimal impact.
+
+Wii Sports was the highest selling game.
+
+Hypothesis testing revealed significant differences between genres and pre-/post-2010 ratings.
 
 ## Project 2: Video Game KPI Dashboard & Ratings Analysis
-Filename Suggestion: video_game_kpi_dashboard.py
+File: video_game_kpi_dashboard.py
 
-### Overview
-This project builds a strategic KPI dashboard and rating analysis pipeline for global video game data. The goal was to quantify platform and genre performance, assess regional market shares, and explore the influence of user and critic reviews on game sales. Visualizations are used to support storytelling and help stakeholders make informed marketing decisions.
+Overview
+This project builds an interactive KPI dashboard to visualize game sales performance. It evaluates top performing platforms and genres, analyzes regional market share, and studies the impact of user and critic ratings on sales.
 
-### KPI Highlights
-* Top platform by average sales: Game Boy
-* Top genre by median sales: Platform
-* Region with highest sales: North America
-* Critic score correlation with sales: 0.25
-* Percentage of games rated 8+ by users: 15.47%
-* Top-selling game: Wii Sports (82.54 million units)
+KPI Highlights
+Top platform by average sales: Game Boy.
 
-### Dashboard Visualizations
-* Bar charts of top platforms and genres
-* Pie chart of regional sales distribution
-* Critic review impact + user score badge
-* Line plots and box plots for exploratory insights
+Top genre by median sales: Platform.
 
-### Hypotheses Tested
-* No significant difference in ratings between Xbox One and PC
-* Action and Sports genres differ significantly in user ratings
-* User ratings shifted significantly after 2010
+Region with highest total sales: North America.
+
+Critic score correlation with sales: 0.25.
+
+Percentage of games rated 8+ by users: 15.47%.
+
+Top-selling game: Wii Sports (82.54M units).
+
+Dashboard Visualizations
+Bar charts: Top platforms and genres.
+
+Pie chart: Regional sales distribution.
+
+KPI cards: Critic score impact and highly-rated games.
+
+Line & box plots: Sales trends and variation.
 
 ### Tools Used
-* pandas, numpy, scipy for data analysis
-* seaborn, matplotlib for KPI dashboard
-* os, warnings for environment control
+pandas, numpy, scipy – Data analysis.
 
+seaborn, matplotlib – Dashboard visualizations.
+
+os, warnings – Environment configuration.
